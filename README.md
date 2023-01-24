@@ -1,6 +1,12 @@
 # UNIR_Latex_TFG-TFM_Plantilla
 
-#Índice#
+<div align="left">
+  <img src="https://img.shields.io/badge/Tecnolog%C3%ADa-Latex-purple">
+  <img src="https://img.shields.io/badge/Trabajo-TFE-green">
+  <img src="https://img.shields.io/badge/Universidad-UNIR-blue">
+</div>
+
+# Índice
 * [Resumen](#resumen)
 * [Instrucciones](#instrucciones)
 * [Ejemplo portada](#portada)
