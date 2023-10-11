@@ -55,6 +55,17 @@ Nos dirigimos al apartado Herramientas y ahí tendremos las opciones Bibliograf�
 ![imagen](https://user-images.githubusercontent.com/46922333/211876604-5fa12740-f029-4710-bea3-46c69690175d.png)
 ![imagen](https://user-images.githubusercontent.com/46922333/211876982-24b88a81-8331-434f-9d79-71e49af2b642.png)
 
+### Para sistemas Linux
+En caso de estar en un sistema Linux tendremos que realizar un paso adicional. Copiamos la carpeta calibri, ubicada en la carpeta fonts (importante con permisos de root), a la siguiente ubicación: /usr/share/fonts/truetype
+
+- sudo cp -r fonts/calibri  /usr/share/fonts/truetype
+
+Seguido se actualiza la base de datos de fuentes para que el sistema reconozca las nuevas fuentes.
+
+- sudo fc-cache -f -v
+
+Es importante resaltar que estas fuentes son propiedad privada de Microsoft. Por lo tanto, para utilizarlas, deberíamos disponer de una licencia válida de Windows.
+
 ## Ejemplo portada <a name="portada"></a>
 ![imagen](https://user-images.githubusercontent.com/46922333/211885426-ae4e2c63-b494-4c5b-ab83-2c54373b9fc7.png)
 
